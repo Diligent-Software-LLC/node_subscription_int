@@ -1,4 +1,4 @@
 $LOAD_PATH.unshift File.expand_path("../lib", __dir__)
-require "node_subscription_int"
 
+require_relative "../lib/node_subscription_int"
 require "minitest/autorun"
