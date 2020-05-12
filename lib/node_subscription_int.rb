@@ -8,6 +8,8 @@ require 'set'
 # @abstract
 # @class_description
 #   A NodeSubscription library interface.
+# @attr instance [NodeSubscription]
+#   A singleton instance.
 # @attr feeds [Set]
 #   All subscription feeds. Its elements are hashes. The keys are Node
 #   references, and their values are Sets containing corresponding subscribers.
@@ -113,6 +115,17 @@ class NodeSubscriptionInt < SubscriptionInt
   def initialize()
   end
 
+  # self.instance=(s = nil).
+  # @description
+  #   Sets the singleton instance.
+  # @param s [NodeSubscription]
+  #   The singleton NodeSubscription instance.
+  # @return [NodeSubscription]
+  #   The argument.
+  def self.instance=(s = nil)
+  end
+
   private_class_method :new
+  private_class_method :instance=
 
 end

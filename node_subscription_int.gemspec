@@ -41,6 +41,6 @@ Gem::Specification.new do |spec|
   # Development and testing dependencies.
   spec.add_development_dependency 'bundler', '~> 2.1'
   spec.add_development_dependency 'simplecov', '~> 0'
-  # spec.add_development_dependency 'subscription_int', '~> 0'
+  spec.add_development_dependency 'subscription_int', '~> 0'
 
 end
