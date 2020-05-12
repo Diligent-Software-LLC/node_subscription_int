@@ -19,8 +19,8 @@ A NodeSubscription library interface.
 Donations support continuous improvement and maintenance. The aim is a reliable,
 integrable, and endurable Subscription library. Make a donation at the project's
  collective page: https://opencollective.com/subscription. One-time and 
-recurring donations are available at $1, $2, $4, $8, and $16. Greatly 
-appreciated.
+recurring donations are available at $1, $2, $4, $8, and $16. Custom donation 
+configurations and anonymity also available. Greatly appreciated.
 
 ### Report Bugs
 
